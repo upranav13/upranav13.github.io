@@ -1,0 +1,14 @@
+
+<div class="papers-list">
+{% for paper in site.papers %}
+  <div class="paper-item">
+<div class="col-lg-12 text-center">
+<h2>My papers</h2>
+<hr class="star-primary">
+    <h1><a href="{{ paper.url }}">{{ paper.title }}</a><h1>
+    <p><strong>Authors:</strong> {{ paper.authors | join: ", " }}</p>
+    <p><strong>Published in:</strong> {{ paper.journal }}</p>
+    <p><a href="{{ paper.link }}">Read more</a></p>
+  </div>
+{% endfor %}
+</div>

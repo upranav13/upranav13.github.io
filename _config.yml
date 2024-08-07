@@ -63,3 +63,7 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+collections:
+  papers:
+    output: true

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ paper.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>{{ paper.title }}</h1>
+  </header>
+  <main>
+    <article>
+      <h2>{{ paper.title }}</h2>
+      <p><strong>Authors:</strong> {{ paper.authors | join: ", " }}</p>
+      <p><strong>Published in:</strong> {{ paper.journal }}</p>
+      <p><strong>Date:</strong> {{ paper.date | date: "%B %d, %Y" }}</p>
+      <p><a href="{{ paper.link }}">Read the full paper</a></p>
+      <div>
+        {{ content }}
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
