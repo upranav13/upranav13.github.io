@@ -6,6 +6,8 @@
 
 body {
     overflow-x: hidden;
+background-color: #89ff9b; /* Set a background color */
+    color: #212529;
 }
 
 p {

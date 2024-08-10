@@ -3,7 +3,8 @@ layout: default
 modal-id: 1
 date: 2014-07-18
 img: mite.png
-alt: image-alt
+post_image: Fig_1.png
+alt: "Mite"
 project-date: October 2020 - Current
 client: Start Bootstrap
 Name: PhD
