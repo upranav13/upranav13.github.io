@@ -93,7 +93,13 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 15px;
+}
+
+.profile-pic {
+    width: 450px !important; /* Override any conflicting styles */
+    height: auto;
+    border-radius: 50%;
 }
 
 header .intro-text .name {
