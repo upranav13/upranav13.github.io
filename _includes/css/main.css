@@ -97,7 +97,7 @@ header img {
 }
 
 .profile-pic {
-    width: 450px !important; /* Override any conflicting styles */
+    width: 300px !important; /* Override any conflicting styles */
     height: auto;
     border-radius: 50%;
 }
