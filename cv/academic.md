@@ -3,6 +3,7 @@ layout: single
 title: "Academic CV"
 permalink: /cv/academic/
 author_profile: true
+classes: wide
 ---
 
 {::nomarkdown}

@@ -3,6 +3,7 @@ layout: single
 title: "Personal Art"
 permalink: /art/
 author_profile: true
+classes: wide
 ---
 
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; align-items:start;">

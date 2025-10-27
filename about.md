@@ -2,7 +2,7 @@
 layout: single
 title: "Who am I?"
 permalink: /about/
-author_profile: true
+classes: wide
 ---
 Hi, I’m Pranav. Almost all of my scientific work revolves around a simple but profound question: how do organisms adapt and evolve? Over the years, I’ve studied this from different angles, and in the process, I’ve also had to adapt myself—learning to work across disciplines and develop a broad toolkit. My skill set has made me something of a “jack of all trades,” and I’m continually working to deepen it while staying open to new perspectives.
 

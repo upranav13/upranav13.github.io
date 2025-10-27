@@ -3,6 +3,7 @@ layout: single
 title: "Traditional Art"
 permalink: /art/traditional/
 author_profile: true
+classes: wide
 
 gallery:
   - image_path: /assets/images/art/traditional/t1.jpg

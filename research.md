@@ -3,6 +3,7 @@ title: "Research"
 permalink: /research/
 layout: single
 author_profile: true
+classes: wide
 ---
 
 <div class="research-section">

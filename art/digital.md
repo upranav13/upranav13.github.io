@@ -3,6 +3,7 @@ layout: single
 title: "Digital Art"
 permalink: /art/digital/
 author_profile: true
+classes: wide
 
 gallery:
   - image_path: /assets/images/art/digital/d1.png

@@ -3,6 +3,7 @@ layout: single
 title: "Designer / Communication CV"
 permalink: /cv/designer/
 author_profile: true
+classes: wide
 ---
 
 {::nomarkdown}

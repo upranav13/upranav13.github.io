@@ -16,3 +16,54 @@
   display: block;
 }
 </style>
+<style>
+/* ====== FULL WIDTH PAGE (no left/right sidebars) ====== */
+body.wide {
+  max-width: none !important;
+}
+
+/* make sure we're affecting desktop layout */
+@media (min-width: 64em) {
+
+  /* Expand content area */
+  body.wide .page__content {
+    width: 100% !important;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Hide the entire left sidebar (author area) */
+  body.wide .sidebar,
+  body.wide .page__sidebar,
+  body.wide .sidebar.sticky,
+  body.wide .sidebar__right {
+    display: none !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Hide any remaining space from sidebar wrappers */
+  body.wide .layout--single .sidebar,
+  body.wide .page__sidebar,
+  body.wide .initial-content .sidebar {
+    display: none !important;
+    width: 0 !important;
+  }
+
+  /* Make sure the content fills full width */
+  body.wide .page,
+  body.wide .page__inner-wrap {
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: block !important;
+  }
+
+  /* Optional: center large figures or paragraphs */
+  body.wide .page__content img {
+    display: block;
+    margin: 1.5rem auto;
+  }
+}
+</style>
+
