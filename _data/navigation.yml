@@ -5,10 +5,12 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Science Art"
-    url: /science-art/
-  - title: "Personal Art"
-    url: /art/
+  - title: "Art"
+    children:
+      - title: "Science"
+        url: /science-art/
+      - title: "Personal"
+        url: /art/
   - title: "CV"
     url: /cv/
   - title: "Contact"
