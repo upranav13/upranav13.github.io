@@ -1,17 +1,27 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
+  - title: "Academics"
+    children:
+      - title: "Research"
+        url: /research/
+      - title: "Publications"
+        url: /publications/
   - title: "Art"
     children:
       - title: "Science"
         url: /science-art/
       - title: "Personal"
         url: /art/
+  - title: "Design"
+    url: /design/
+  - title: "Activities"
+    url: /activities/
   - title: "CV"
-    url: /cv/
+    children:
+      - title: "Academic"
+        url: /cv-academic/
+      - title: "Design & Organization"
+        url: /cv-design/
   - title: "Contact"
     url: /contact/

@@ -223,3 +223,420 @@ img, .page__content, .author__avatar, .author__content, .masthead, .site-title, 
   text-align: center;       /* center label under each image */
 }
 </style>
+
+<style>
+/* Make dropdown parent visually identical to normal nav links */
+.masthead__menu-item.has-children > button.masthead__menu-item-link {
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Remove any extra bold weight if applied */
+.masthead__menu-item.has-children > button.masthead__menu-item-link:hover,
+.masthead__menu-item.has-children > button.masthead__menu-item-link:focus {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+/* Adjust arrow (SVG) so it aligns and inherits color */
+.masthead__menu-item.has-children svg {
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.25em;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+}
+
+.masthead__menu-item.has-children:hover svg {
+  transform: rotate(180deg);
+}
+</style>
+
+<style>
+/* Correct dropdown behaviour for Minimal Mistakes */
+.masthead__menu-item.has-children {
+  position: relative;
+}
+
+.masthead__menu-item.has-children > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 9999;
+}
+
+.masthead__menu-item.has-children:hover > ul,
+.masthead__menu-item.has-children:focus-within > ul {
+  display: block;
+}
+
+.masthead__menu-item.has-children > ul li a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.masthead__menu-item.has-children > ul li a:hover {
+  background: #f2f2f2;
+}
+
+.masthead__menu-item.has-children svg {
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.25em;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+}
+.masthead__menu-item.has-children:hover svg {
+  transform: rotate(180deg);
+}
+</style>
+
+<style>
+/* Fix: make sure dropdowns are not clipped by the greedy-nav container */
+.greedy-nav {
+  overflow: visible !important;
+}
+</style>
+
+<style>
+/* Correct dropdown behaviour for Minimal Mistakes + your current markup */
+.masthead__menu-item.has-children {
+  position: relative;
+}
+
+.masthead__menu-item.has-children > ul.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 9999;
+}
+
+.masthead__menu-item.has-children:hover > ul.dropdown-menu,
+.masthead__menu-item.has-children:focus-within > ul.dropdown-menu {
+  display: block;
+}
+
+.masthead__menu-item.has-children > ul.dropdown-menu li a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.masthead__menu-item.has-children > ul.dropdown-menu li a:hover {
+  background: #f2f2f2;
+}
+
+/* Arrow animation */
+.masthead__menu-item.has-children svg {
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.25em;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+}
+
+.masthead__menu-item.has-children:hover svg {
+  transform: rotate(180deg);
+}
+
+/* Make sure nav container doesn't clip dropdowns */
+.greedy-nav {
+  overflow: visible !important;
+}
+</style>
+
+<style>
+/* Show dropdown on hover */
+.has-children > .dropdown-menu { display: none; }
+.has-children:hover > .dropdown-menu,
+.has-children:focus-within > .dropdown-menu { display: block; }
+
+/* Arrow flip */
+.masthead__menu-item.has-children svg {
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.25em;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+}
+.masthead__menu-item.has-children:hover svg {
+  transform: rotate(180deg);
+}
+</style>
+
+<style>
+/* Prevent wobble safely */
+.masthead__menu-item.has-children {
+  position: relative;
+}
+.masthead__menu-item.has-children > .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+}
+.greedy-nav {
+  overflow: visible !important;
+}
+</style>
+
+<style>
+/* --- Force dropdown to show, no matter what the theme says --- */
+.greedy-nav,
+.greedy-nav .visible-links {
+  overflow: visible !important;
+}
+
+.masthead__menu-item.has-children {
+  position: relative !important;
+}
+
+.masthead__menu-item.has-children > .dropdown-menu {
+  display: none !important;
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  background: #fff !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 1px solid #ddd !important;
+  border-radius: 0.3em !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;
+  z-index: 99999 !important;
+}
+
+.masthead__menu-item.has-children:hover > .dropdown-menu,
+.masthead__menu-item.has-children:focus-within > .dropdown-menu {
+  display: block !important;
+}
+
+.masthead__menu-item.has-children > .dropdown-menu li a {
+  display: block !important;
+  padding: 0.5em 1em !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  white-space: nowrap !important;
+}
+
+.masthead__menu-item.has-children > .dropdown-menu li a:hover {
+  background: #f2f2f2 !important;
+}
+</style>
+
+<style>
+.design-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.design-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.design-gallery img:hover {
+  transform: scale(1.03);
+}
+.design-item {
+  text-align: center;
+  margin: 30px 0;
+}
+.design-item img {
+  width: 60%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.design-item p {
+  max-width: 700px;
+  margin: 10px auto 0;
+  line-height: 1.5;
+}
+</style>
+
+<style>
+/* === Portfolio section styling === */
+
+/* Adds a nice divider line between main sections */
+.design-section {
+  padding: 40px 0;
+  border-top: 2px solid #e5e5e5;
+  margin-top: 40px;
+}
+
+/* Soft background block for every main section */
+.design-section.alt {
+  background: #f8fafc; /* subtle off-white */
+  border-top: none;
+  padding: 50px 0;
+  margin-top: 60px;
+}
+
+/* Keep spacing consistent within each */
+.design-section h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.design-section p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+</style>
+
+<style>
+.activity-section {
+  padding: 40px 0;
+  border-top: 2px solid #e5e5e5;
+  margin-top: 40px;
+}
+
+.activity-section.alt {
+  background: #f8fafc; /* subtle off-white background */
+  border-top: none;
+  padding: 50px 0;
+  margin-top: 60px;
+}
+
+.activity-section h1 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.activity-section p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.activity-section ul {
+  list-style: disc;
+  max-width: 750px;
+  margin: 15px auto;
+  padding-left: 20px;
+  line-height: 1.5;
+}
+</style>
+
+<style>
+/* === Smart dropdown alignment fix === */
+.masthead__menu-item.has-children {
+  position: relative;
+}
+
+/* Default dropdown behavior */
+.masthead__menu-item.has-children > .dropdown-menu {
+  left: 0;
+  right: auto;
+  white-space: nowrap;
+  min-width: max-content; /* makes it as wide as its longest child */
+}
+
+/* Flip dropdown to stay within screen on right-edge items */
+.masthead__menu-item.has-children:last-child > .dropdown-menu,
+.masthead__menu-item.has-children:nth-last-child(1) > .dropdown-menu,
+.masthead__menu-item.has-children:nth-last-child(2) > .dropdown-menu {
+  left: auto;
+  right: 0;
+  margin-right: 10px; /* adds a small buffer from screen edge */
+}
+
+/* Ensure dropdown links wrap gracefully if text is long */
+.masthead__menu-item.has-children > .dropdown-menu li a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: inherit;
+  white-space: normal; /* allows wrapping if needed */
+  word-break: break-word;
+}
+</style>
+
+<style>
+/* === Fix dropdown overflow on right edge for Minimal Mistakes === */
+
+/* Allow dropdowns to render outside the nav container */
+.greedy-nav,
+.greedy-nav .visible-links {
+  overflow: visible !important;
+}
+
+/* Default dropdown style */
+.masthead__menu-item.has-children {
+  position: relative;
+}
+
+.masthead__menu-item.has-children > .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+  z-index: 9999;
+  right: 0;              /* aligns to right edge of button */
+  left: auto !important; /* prevents pushing off-screen */
+}
+
+/* Show dropdown on hover/focus */
+.masthead__menu-item.has-children:hover > .dropdown-menu,
+.masthead__menu-item.has-children:focus-within > .dropdown-menu {
+  display: block;
+}
+
+/* Dropdown items */
+.masthead__menu-item.has-children > .dropdown-menu li a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.masthead__menu-item.has-children > .dropdown-menu li a:hover {
+  background: #f2f2f2;
+}
+</style>

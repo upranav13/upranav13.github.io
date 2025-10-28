@@ -1,11 +1,32 @@
 {% assign masthead_nav = site.data.navigation.main %}
 <nav id="site-nav" class="greedy-nav">
+  <a class="site-title" href="{{ '/' | relative_url }}">
+    {{ site.title | default: site.name }}
+  </a>
   <ul class="visible-links">
     {% for link in masthead_nav %}
-      <li class="masthead__menu-item {% if page.permalink == link.url %}active{% endif %}">
-        <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+      <li class="masthead__menu-item{% if link.children %} has-children{% endif %}">
+        {% if link.children %}
+          <button class="masthead__menu-item-link" aria-haspopup="true">
+            {{ link.title }}
+            <span class="icon">
+              <svg viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg"><path d="M0 0l5 6 5-6z"/></svg>
+            </span>
+          </button>
+          <ul class="dropdown-menu">
+            {% for child in link.children %}
+              <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <a class="masthead__menu-item-link" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
+  <button class="greedy-nav__toggle hidden" type="button">
+    <span class="visually-hidden">Toggle menu</span>
+    <div class="navicon"></div>
+  </button>
   <ul class="hidden-links hidden"></ul>
 </nav>
