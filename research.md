@@ -7,6 +7,26 @@ classes: wide
 ---
 
 <div class="research-section">
+  <h2>Experimental Evolution in Bulb Mites</h2>
+  <p>
+    Using controlled long-term experiments, I study how environmental variation 
+    and sexual selection drive allele frequency dynamics in bulb mites.
+  </p>
+
+  <div class="research-options">
+    <a href="/research/field-study/" class="option">
+      <img src="/assets/images/research/field.jpg" alt="Field Study">
+      <p>Field Study</p>
+    </a>
+
+    <a href="/research/lab-study/" class="option">
+      <img src="/assets/images/research/lab.jpg" alt="Lab Study">
+      <p>Laboratory Study</p>
+    </a>
+  </div>
+</div>
+
+<div class="research-section">
   <h2>Evolution of squirrel coat and colour</h2>
   <p>
     I investigate how coat patterns and coloration in squirrels have evolved. 
@@ -23,26 +43,6 @@ classes: wide
     <a href="/research/camouflage/" class="option">
       <img src="/assets/images/research/camouflage.jpg" alt="Camouflage">
       <p>Camouflage Efficiency Experiments</p>
-    </a>
-  </div>
-</div>
-
-<div class="research-section">
-  <h2>Experimental Evolution in Bulb Mites</h2>
-  <p>
-    Using controlled long-term experiments, I study how environmental variation 
-    and sexual selection drive allele frequency dynamics in bulb mites.
-  </p>
-
-  <div class="research-options">
-    <a href="/research/field-study/" class="option">
-      <img src="/assets/images/research/field.jpg" alt="Field Study">
-      <p>Field Study</p>
-    </a>
-
-    <a href="/research/lab-study/" class="option">
-      <img src="/assets/images/research/lab.jpg" alt="Lab Study">
-      <p>Laboratory Study</p>
     </a>
   </div>
 </div>
