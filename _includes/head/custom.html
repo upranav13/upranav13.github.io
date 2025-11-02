@@ -1,463 +1,166 @@
+<!-- === GOOGLE FONTS === -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
+<!-- === GLOBAL DARK THEME === -->
 <style>
-  /* body text */
-  body {
-    font-family: 'Lobster Two', sans-serif;
-  }
-
-  /* headings */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Dancing Script', cursive;
-  }
-
-  /* navigation + site title */
-  .masthead, .site-title, .site-nav {
-    font-family: 'Lobster Two', sans-serif;
-  }
-</style>
-
-<style>
-  /* Publications layout */
-  .pubs-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 24px;
-    margin: 16px 0 32px;
-  }
-
-  /* Each publication entry (no white background box) */
-  .pub-card {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 16px;
-    align-items: start;
-    padding: 0;
-    border: none;
-    background: none;
-  }
-
-  /* Thumbnail image */
-  .pub-thumb {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 6px;
-  }
-
-  /* Text area */
-  .pub-meta {
-    min-width: 0;
-    font-family: 'Merriweather', serif;   /* professional serif font */
-    font-size: 0.95rem;
-    line-height: 1.4;
-  }
-
-  /* Title of paper */
-  .pub-title {
-    margin: 0 0 6px;
-    font-size: 1.05rem;
-    font-weight: 600;
-    font-family: 'Merriweather', serif;
-  }
-
-  /* Authors & venue */
-  .pub-authors, .pub-venue {
-    margin: 0 0 6px;
-    color: #444;
-  }
-
-  /* Buttons */
-  .pub-links .btn {
-    margin-right: 6px;
-    margin-top: 6px;
-  }
-
-  @media (max-width: 520px) {
-    .pub-card { grid-template-columns: 1fr; }
-    .pub-thumb { width: 100%; height: 180px; }
-  }
-</style>
-
-<style>
-.author__avatar img {
-  width: 250px !important;   /* force equal width */
-  height: 250px !important;  /* force equal height */
-  border-radius: 50% !important; /* make it a circle */
-  object-fit: cover !important;  /* crop nicely */
-  max-width: none !important;    /* cancel the theme’s 110px rule */
-}
-</style>
-
-<style>
-.author__avatar {
-  text-align: center;   /* centers the img inside */
-  display: block !important;
+body {
+  background-color: #0d1117;
+  color: #e6e6e6;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+  text-align: center;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-.author__avatar img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;   /* ensures it stays centered */
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
-</style>
 
-<style>
+/* Links */
+a {
+  color: #3db2e1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #7cd7f7;
+  text-decoration: underline;
+}
+
+/* Navbar + title */
+.greedy-nav,
+.masthead,
+.site-title,
+.site-nav {
+  background-color: #0d1117 !important;
+  color: #e6e6e6 !important;
+  border-bottom: 1px solid #1f2933 !important;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar links */
+.masthead__menu-item a {
+  color: #e6e6e6 !important;
+}
+.masthead__menu-item a:hover {
+  color: #3db2e1 !important;
+}
 .masthead__menu-item.active a {
-  background-color: #e8f1fb;
+  background-color: #1f2933;
   border-radius: 6px;
   padding: 6px 12px;
   font-weight: bold;
-  color: #000 !important;
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const current = window.location.pathname.replace(/\/$/, ""); // normalize (remove trailing slash)
-  
-  // Remove any existing 'active' classes
-  document.querySelectorAll(".masthead__menu-item").forEach(li => {
-    li.classList.remove("active");
-  });
-  
-  // Add 'active' to the nav link that matches current page
-  document.querySelectorAll(".masthead__menu-item a").forEach(link => {
-    let href = link.getAttribute("href").replace(/\/$/, "");
-    if (href === current) {
-      link.parentElement.classList.add("active");
-    }
-  });
-});
-</script>
-
-<style>
-.research-section {
-  margin: 40px 0;
-  padding: 20px 0;
-  border-bottom: 1px solid #ddd;
+  color: #ffffff !important;
 }
 
-.research-section h2 {
-  font-size: 1.6rem;
-  margin-bottom: 10px;
-  color: #222;
+/* Dropdown menu styling */
+.greedy-nav, .greedy-nav .visible-links {
+  overflow: visible !important;
 }
-
-.research-section p {
-  font-size: 1rem;
-  margin-bottom: 16px;
-  line-height: 1.5;
+.masthead__menu-item.has-children {
+  position: relative;
 }
-
-.research-options {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
+.masthead__menu-item.has-children > .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background: #11161e;
+  border: 1px solid #1f2933;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+  z-index: 9999;
+  right: 0;
+  left: auto !important;
 }
-
-.research-options .option {
+.masthead__menu-item.has-children:hover > .dropdown-menu,
+.masthead__menu-item.has-children:focus-within > .dropdown-menu {
   display: block;
-  width: 220px;
-  text-align: center;
+}
+.masthead__menu-item.has-children > .dropdown-menu li a {
+  display: block;
+  padding: 0.5em 1em;
   text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #e6e6e6;
+}
+.masthead__menu-item.has-children > .dropdown-menu li a:hover {
+  background: #1f2933;
 }
 
-.research-options .option img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+/* Arrow icon animation */
+.masthead__menu-item.has-children svg {
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.25em;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+}
+.masthead__menu-item.has-children:hover svg {
+  transform: rotate(180deg);
 }
 
-.research-options .option p {
-  margin-top: 8px;
-  font-size: 0.95rem;
-  font-weight: 500;
-}
-
-.research-options .option:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-}
-</style>
-
-<style>
-/* Center all body text and headings site-wide */
-body {
-  text-align: center;
-}
-
-/* Make sure images and blocks are centered too */
-img, .page__content, .author__avatar, .author__content, .masthead, .site-title, .site-nav {
+/* Centered layout */
+img, .page__content, .author__avatar, .author__content {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-
-/* Navigation items stay inline but text centered */
 .masthead__menu-item {
   display: inline-block;
   float: none;
 }
-</style>
 
-<style>
-/* Ensure research thumbnails are centered in their row */
-.research-options {
-  display: flex;
-  justify-content: center;  /* center the thumbnails horizontally */
-  flex-wrap: wrap;          /* allow wrapping on small screens */
-  gap: 24px;                /* spacing between them */
-}
-
-.research-options .option {
-  text-align: center;       /* center label under each image */
-}
-</style>
-
-<style>
-/* Make dropdown parent visually identical to normal nav links */
-.masthead__menu-item.has-children > button.masthead__menu-item-link {
-  background: none;
-  border: none;
-  color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-}
-
-/* Remove any extra bold weight if applied */
-.masthead__menu-item.has-children > button.masthead__menu-item-link:hover,
-.masthead__menu-item.has-children > button.masthead__menu-item-link:focus {
-  text-decoration: underline;
-  font-weight: normal;
-}
-
-/* Adjust arrow (SVG) so it aligns and inherits color */
-.masthead__menu-item.has-children svg {
-  width: 0.6em;
-  height: 0.6em;
-  margin-left: 0.25em;
-  fill: currentColor;
-  transition: transform 0.2s ease;
-  vertical-align: middle;
-}
-
-.masthead__menu-item.has-children:hover svg {
-  transform: rotate(180deg);
-}
-</style>
-
-<style>
-/* Correct dropdown behaviour for Minimal Mistakes */
-.masthead__menu-item.has-children {
-  position: relative;
-}
-
-.masthead__menu-item.has-children > ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #fff;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  border: 1px solid #ddd;
-  border-radius: 0.3em;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  z-index: 9999;
-}
-
-.masthead__menu-item.has-children:hover > ul,
-.masthead__menu-item.has-children:focus-within > ul {
-  display: block;
-}
-
-.masthead__menu-item.has-children > ul li a {
-  display: block;
-  padding: 0.5em 1em;
+/* Buttons */
+.btn {
+  background: #3db2e1;
+  color: #0d1117;
+  border-radius: 5px;
+  padding: 10px 18px;
   text-decoration: none;
-  color: inherit;
-  white-space: nowrap;
+  display: inline-block;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.btn:hover {
+  background: #7cd7f7;
+  transform: translateY(-2px);
 }
 
-.masthead__menu-item.has-children > ul li a:hover {
-  background: #f2f2f2;
+/* Section dividers and alternating panels */
+.design-section, .activity-section, .cv-section {
+  padding: 40px 0;
+  border-top: 2px solid #1f2933;
+  margin-top: 40px;
+  background-color: #0d1117;
+}
+.design-section.alt, .activity-section.alt, .cv-section.alt {
+  background-color: #11161e;
+  border-top: none;
+  padding: 50px 0;
+  margin-top: 60px;
+}
+.design-section h1, .activity-section h1, .cv-section h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.design-section p, .activity-section p, .cv-section p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
 }
 
-.masthead__menu-item.has-children svg {
-  width: 0.6em;
-  height: 0.6em;
-  margin-left: 0.25em;
-  fill: currentColor;
-  transition: transform 0.2s ease;
-  vertical-align: middle;
-}
-.masthead__menu-item.has-children:hover svg {
-  transform: rotate(180deg);
-}
-</style>
-
-<style>
-/* Fix: make sure dropdowns are not clipped by the greedy-nav container */
-.greedy-nav {
-  overflow: visible !important;
-}
-</style>
-
-<style>
-/* Correct dropdown behaviour for Minimal Mistakes + your current markup */
-.masthead__menu-item.has-children {
-  position: relative;
-}
-
-.masthead__menu-item.has-children > ul.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #fff;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  border: 1px solid #ddd;
-  border-radius: 0.3em;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  z-index: 9999;
-}
-
-.masthead__menu-item.has-children:hover > ul.dropdown-menu,
-.masthead__menu-item.has-children:focus-within > ul.dropdown-menu {
-  display: block;
-}
-
-.masthead__menu-item.has-children > ul.dropdown-menu li a {
-  display: block;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  color: inherit;
-  white-space: nowrap;
-}
-
-.masthead__menu-item.has-children > ul.dropdown-menu li a:hover {
-  background: #f2f2f2;
-}
-
-/* Arrow animation */
-.masthead__menu-item.has-children svg {
-  width: 0.6em;
-  height: 0.6em;
-  margin-left: 0.25em;
-  fill: currentColor;
-  transition: transform 0.2s ease;
-  vertical-align: middle;
-}
-
-.masthead__menu-item.has-children:hover svg {
-  transform: rotate(180deg);
-}
-
-/* Make sure nav container doesn't clip dropdowns */
-.greedy-nav {
-  overflow: visible !important;
-}
-</style>
-
-<style>
-/* Show dropdown on hover */
-.has-children > .dropdown-menu { display: none; }
-.has-children:hover > .dropdown-menu,
-.has-children:focus-within > .dropdown-menu { display: block; }
-
-/* Arrow flip */
-.masthead__menu-item.has-children svg {
-  width: 0.6em;
-  height: 0.6em;
-  margin-left: 0.25em;
-  fill: currentColor;
-  transition: transform 0.2s ease;
-  vertical-align: middle;
-}
-.masthead__menu-item.has-children:hover svg {
-  transform: rotate(180deg);
-}
-</style>
-
-<style>
-/* Prevent wobble safely */
-.masthead__menu-item.has-children {
-  position: relative;
-}
-.masthead__menu-item.has-children > .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 9999;
-}
-.greedy-nav {
-  overflow: visible !important;
-}
-</style>
-
-<style>
-/* --- Force dropdown to show, no matter what the theme says --- */
-.greedy-nav,
-.greedy-nav .visible-links {
-  overflow: visible !important;
-}
-
-.masthead__menu-item.has-children {
-  position: relative !important;
-}
-
-.masthead__menu-item.has-children > .dropdown-menu {
-  display: none !important;
-  position: absolute !important;
-  top: 100% !important;
-  left: 0 !important;
-  background: #fff !important;
-  list-style: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: 1px solid #ddd !important;
-  border-radius: 0.3em !important;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;
-  z-index: 99999 !important;
-}
-
-.masthead__menu-item.has-children:hover > .dropdown-menu,
-.masthead__menu-item.has-children:focus-within > .dropdown-menu {
-  display: block !important;
-}
-
-.masthead__menu-item.has-children > .dropdown-menu li a {
-  display: block !important;
-  padding: 0.5em 1em !important;
-  text-decoration: none !important;
-  color: inherit !important;
-  white-space: nowrap !important;
-}
-
-.masthead__menu-item.has-children > .dropdown-menu li a:hover {
-  background: #f2f2f2 !important;
-}
-</style>
-
-<style>
+/* Gallery styling */
 .design-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -468,175 +171,637 @@ img, .page__content, .author__avatar, .author__content, .masthead, .site-title, 
 .design-gallery img {
   width: 100%;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(255,255,255,0.05);
   transition: transform 0.2s ease;
 }
 .design-gallery img:hover {
   transform: scale(1.03);
 }
-.design-item {
-  text-align: center;
-  margin: 30px 0;
+
+/* Author avatar */
+.author__avatar img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1f2933;
+  display: block;
+  margin: 0 auto;
 }
-.design-item img {
-  width: 60%;
-  max-width: 600px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+/* Research thumbnails layout */
+.research-section {
+  margin: 40px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #1f2933;
 }
-.design-item p {
-  max-width: 700px;
-  margin: 10px auto 0;
+.research-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.research-section p {
+  font-size: 1rem;
+  margin-bottom: 16px;
   line-height: 1.5;
 }
+.research-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.research-options .option {
+  display: block;
+  width: 220px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.research-options .option img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(255,255,255,0.05);
+}
+.research-options .option:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(255,255,255,0.1);
+}
+
+/* Publication grid styling */
+.pubs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  margin: 16px 0 32px;
+}
+.pub-card {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 16px;
+  align-items: start;
+  border: none;
+  background: none;
+}
+.pub-thumb {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.pub-meta {
+  min-width: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.pub-title {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.pub-authors, .pub-venue {
+  margin: 0 0 6px;
+  color: #aaaaaa;
+}
+
+/* Responsive publication grid */
+@media (max-width: 520px) {
+  .pub-card { grid-template-columns: 1fr; }
+  .pub-thumb { width: 100%; height: 180px; }
+}
+</style>
+
+<!-- === ACTIVE NAV LINK SCRIPT === -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const current = window.location.pathname.replace(/\/$/, "");
+  document.querySelectorAll(".masthead__menu-item").forEach(li => li.classList.remove("active"));
+  document.querySelectorAll(".masthead__menu-item a").forEach(link => {
+    let href = link.getAttribute("href").replace(/\/$/, "");
+    if (href === current) link.parentElement.classList.add("active");
+  });
+});
+</script>
+
+<style>
+/* === Fix author avatar circle shape === */
+.author__avatar {
+  text-align: center !important;
+  display: block !important;
+}
+
+.author__avatar img {
+  width: 220px !important;        /* consistent width */
+  height: 220px !important;       /* same height = circle */
+  border-radius: 50% !important;  /* perfect circle */
+  object-fit: cover !important;   /* crop evenly */
+  display: block;
+  margin: 0 auto !important;      /* centers image */
+  border: 2px solid #1f2933;      /* subtle dark border */
+  max-width: none !important;     /* prevent theme overrides */
+}
 </style>
 
 <style>
-/* === Portfolio section styling === */
+/* === Clean dropdown parent (no white box around arrow) === */
+.masthead__menu-item.has-children > button.masthead__menu-item-link {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: inherit !important;
+  font: inherit !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
 
-/* Adds a nice divider line between main sections */
-.design-section {
-  padding: 40px 0;
-  border-top: 2px solid #e5e5e5;
+/* Prevent default browser focus outline box */
+.masthead__menu-item.has-children > button.masthead__menu-item-link:focus {
+  outline: none !important;
+}
+
+/* Keep arrow small and subtle */
+.masthead__menu-item.has-children svg {
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.25em;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+}
+.masthead__menu-item.has-children:hover svg {
+  transform: rotate(180deg);
+}
+</style>
+
+<style>
+/* === Minimal professional footer === */
+.page__footer {
+  background: none !important;
+  border-top: 1px solid #1f2933;
+  padding: 20px 0;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
   margin-top: 40px;
 }
 
-/* Soft background block for every main section */
-.design-section.alt {
-  background: #f8fafc; /* subtle off-white */
-  border-top: none;
-  padding: 50px 0;
-  margin-top: 60px;
+.page__footer a {
+  color: #3db2e1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.page__footer a:hover {
+  color: #7cd7f7;
+  text-decoration: underline;
 }
 
-/* Keep spacing consistent within each */
-.design-section h1 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
+/* remove any leftover background or shadow from theme */
+.page__footer-inner,
+.page__footer * {
+  background: none !important;
+  box-shadow: none !important;
+}
+</style>
+
+<style>
+/* === EMPSEB logo sizing === */
+img[src*="logo.png"] {
+  width: 480px !important;
+  height: auto !important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+</style>
+
+<!-- === Simple Image Carousel === -->
+<style>
+.image-slider {
+  position: relative;
+  max-width: 480px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
-.design-section p {
+.image-slider .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-slider img {
+  width: 100%;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.image-slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background 0.3s;
+}
+.image-slider button:hover {
+  background: rgba(0,0,0,0.6);
+}
+
+.image-slider .prev { left: 10px; }
+.image-slider .next { right: 10px; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const sliders = document.querySelectorAll(".image-slider");
+  
+  sliders.forEach(slider => {
+    const slidesContainer = slider.querySelector(".slides");
+    const slides = slider.querySelectorAll("img");
+    let index = 0;
+
+    function showSlide(n) {
+      index = (n + slides.length) % slides.length;
+      slidesContainer.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    slider.querySelector(".prev").addEventListener("click", () => showSlide(index - 1));
+    slider.querySelector(".next").addEventListener("click", () => showSlide(index + 1));
+  });
+});
+</script>
+
+<style>
+/* === Resize and align science art figures & carousel images === */
+
+/* Regular figure (gallery images like fig1.png on science art page) */
+.page__content img[src*="/science-art/themes/"] {
+  max-width: 480px !important;
+  height: auto !important;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
+  object-fit: contain;
+}
+
+/* Carousel container for concept series */
+.image-slider {
+  max-width: 480px !important;   /* set overall carousel width */
+  margin: 30px auto !important;
+}
+
+/* Individual images inside carousel */
+.image-slider img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain;           /* ensures full image is visible */
+  border-radius: 8px;
+}
+
+/* Carousel buttons (slightly smaller, cleaner) */
+.image-slider button {
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+.image-slider button:hover {
+  background: rgba(0,0,0,0.5);
+}
+</style>
+
+<style>
+/* === Force-center science-art gallery figures and images === */
+
+/* Handles both <img> and <figure> that appear on the Science Art page */
+.page__content img[src*="/science-art/themes/"],
+.page__content figure img[src*="/science-art/themes/"] {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  text-align: center !important;
+  max-width: 480px !important;
+  height: auto !important;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* If theme adds align-left or align-right classes, neutralize them */
+.page__content figure.align-left,
+.page__content figure.align-right,
+.page__content p img.align-left,
+.page__content p img.align-right {
+  float: none !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+/* Center any <figure> or <p> container that wraps these */
+.page__content figure,
+.page__content p:has(img[src*="/science-art/themes/"]) {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+</style>
+
+<style>
+/* === EMPSEB29 section styling === */
+.activity-section img {
+  border-radius: 8px;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.activity-section .caption {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.sponsor-grid img {
   max-width: 800px;
-  margin: 10px auto;
-  line-height: 1.6;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.05);
 }
 </style>
 
 <style>
-.activity-section {
-  padding: 40px 0;
-  border-top: 2px solid #e5e5e5;
-  margin-top: 40px;
+/* === Highlights Beyond Science Carousel === */
+.image-slider {
+  position: relative;
+  max-width: 700px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(255,255,255,0.08);
 }
 
-.activity-section.alt {
-  background: #f8fafc; /* subtle off-white background */
-  border-top: none;
-  padding: 50px 0;
-  margin-top: 60px;
+.image-slider .slides {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.image-slider img {
+  width: 100%;
+  border-radius: 10px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* Navigation buttons */
+.image-slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background 0.3s;
+}
+
+.image-slider button:hover {
+  background: rgba(0,0,0,0.6);
+}
+
+.image-slider .prev { left: 10px; }
+.image-slider .next { right: 10px; }
+
+/* Bulleted text */
+.activity-section ul {
+  list-style: disc;
+  max-width: 800px;
+  margin: 25px auto;
+  padding-left: 25px;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .activity-section h1 {
-  font-size: 1.6rem;
+  color: #ffffff;
+  font-weight: 600;
   margin-bottom: 10px;
-  color: #222;
+}
+</style>
+
+<style>
+/* === Two-column flexible layout === */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
 }
 
-.activity-section p {
-  max-width: 800px;
-  margin: 10px auto;
+.two-column.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Left & right sides */
+.two-column .left,
+.two-column .right {
+  flex: 1 1 45%;
+  max-width: 600px;
+}
+
+/* Organizer photo & caption */
+.two-column img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.08);
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-top: 8px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+/* Adjust text spacing */
+.two-column ul {
+  list-style: disc;
+  margin: 15px 0 0 20px;
+  text-align: left;
   line-height: 1.6;
 }
 
-.activity-section ul {
+/* Responsive stacking for small screens */
+@media (max-width: 768px) {
+  .two-column,
+  .two-column.reverse {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .two-column .left,
+  .two-column .right {
+    max-width: 90%;
+  }
+
+  .caption {
+    text-align: center;
+  }
+}
+</style>
+
+<style>
+.small-caption {
+  font-size: 0.7rem !important;
+  color: #999 !important;
+  margin-top: 6px !important;
+  line-height: 1.3 !important;
+  text-align: left !important;
+  opacity: 0.8;
+}
+
+
+/* === Organizer right section title === */
+.two-column .right h2 {
+  font-size: 1rem;
+  color: #3db2e1; /* same accent color as links */
+  margin-bottom: 10px;
+  text-align: left;
+}
+</style>
+
+<style>
+/* === Custom sizing for Organisers photo and Highlights carousel === */
+
+/* Organisers photo (left side) */
+.two-column .left img {
+  width: 90% !important;        /* relative size inside the column */
+  max-width: 420px !important;  /* limit actual width in pixels */
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.08);
+}
+
+/* Carousel size inside Highlights Beyond Science */
+.two-column .right .image-slider {
+  max-width: 520px !important;  /* overall width of the carousel */
+  margin: 0 auto;
+}
+</style>
+
+<style>
+/* === PEC image formatting === */
+.activity-section img[src*="PEC.jpg"] {
+  display: block;
+  margin: 25px auto;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.08);
+}
+</style>
+
+<style>
+.activity-section img[src*="ee.png"] {
+  display: block;
+  margin: 25px auto;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.08);
+}
+</style>
+
+<style>
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.two-column .left,
+.two-column .right {
+  flex: 1 1 45%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.two-column .left ul {
   list-style: disc;
-  max-width: 750px;
-  margin: 15px auto;
-  padding-left: 20px;
-  line-height: 1.5;
+  margin-left: 20px;
+  padding-left: 0;
+  line-height: 1.6;
 }
-</style>
 
-<style>
-/* === Smart dropdown alignment fix === */
-.masthead__menu-item.has-children {
+.two-column .right {
+  text-align: center;
+}
+
+.image-slider {
   position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.08);
 }
 
-/* Default dropdown behavior */
-.masthead__menu-item.has-children > .dropdown-menu {
-  left: 0;
-  right: auto;
-  white-space: nowrap;
-  min-width: max-content; /* makes it as wide as its longest child */
+.image-slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
 }
 
-/* Flip dropdown to stay within screen on right-edge items */
-.masthead__menu-item.has-children:last-child > .dropdown-menu,
-.masthead__menu-item.has-children:nth-last-child(1) > .dropdown-menu,
-.masthead__menu-item.has-children:nth-last-child(2) > .dropdown-menu {
-  left: auto;
-  right: 0;
-  margin-right: 10px; /* adds a small buffer from screen edge */
-}
-
-/* Ensure dropdown links wrap gracefully if text is long */
-.masthead__menu-item.has-children > .dropdown-menu li a {
-  display: block;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  color: inherit;
-  white-space: normal; /* allows wrapping if needed */
-  word-break: break-word;
-}
-</style>
-
-<style>
-/* === Fix dropdown overflow on right edge for Minimal Mistakes === */
-
-/* Allow dropdowns to render outside the nav container */
-.greedy-nav,
-.greedy-nav .visible-links {
-  overflow: visible !important;
-}
-
-/* Default dropdown style */
-.masthead__menu-item.has-children {
-  position: relative;
-}
-
-.masthead__menu-item.has-children > .dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 0.3em;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  white-space: nowrap;
-  z-index: 9999;
-  right: 0;              /* aligns to right edge of button */
-  left: auto !important; /* prevents pushing off-screen */
-}
-
-/* Show dropdown on hover/focus */
-.masthead__menu-item.has-children:hover > .dropdown-menu,
-.masthead__menu-item.has-children:focus-within > .dropdown-menu {
-  display: block;
-}
-
-/* Dropdown items */
-.masthead__menu-item.has-children > .dropdown-menu li a {
-  display: block;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  color: inherit;
-}
-
-.masthead__menu-item.has-children > .dropdown-menu li a:hover {
-  background: #f2f2f2;
+/* Responsive stacking for smaller screens */
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+    align-items: center;
+  }
+  .two-column .left, .two-column .right {
+    max-width: 90%;
+  }
 }
 </style>

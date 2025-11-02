@@ -2,6 +2,7 @@
 layout: single
 title: "Welcome to my domain..."
 author_profile: true
+classes: wide
 ---
 *where science meets imagination, and where sketches, ideas, and experiments all find a home*
 
