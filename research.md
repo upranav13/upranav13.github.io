@@ -23,6 +23,11 @@ classes: wide
       <img src="/assets/images/research/lab.jpg" alt="Lab Study">
       <p>Laboratory Study</p>
     </a>
+
+    <a href="/research/transcriptomics/" class="option">
+      <img src="/assets/images/research/transcriptomics.jpg" alt="Transcriptomics">
+      <p>Transcriptomic Analysis</p>
+    </a>
   </div>
 </div>
 
@@ -55,12 +60,12 @@ classes: wide
   </p>
 
   <div class="research-options">
-    <a href="/research/behaviour/" class="option">
+    <a href="/research/drosophila-internship/" class="option">
       <img src="/assets/images/research/behaviour.jpg" alt="Behaviour">
       <p>Behavioural Assays</p>
     </a>
 
-    <a href="/research/bird/" class="option">
+    <a href="/research/bird-internship/" class="option">
       <img src="/assets/images/research/bird.jpg" alt="Bird Ecology">
       <p>Bird Ecology Projects</p>
     </a>
