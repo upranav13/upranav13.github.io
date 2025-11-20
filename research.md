@@ -7,10 +7,9 @@ classes: wide
 ---
 
 <div class="research-section">
-  <h2>Experimental Evolution in Bulb Mites</h2>
+  <h2>Balancing selection in Bulb Mites</h2>
   <p>
-    Using controlled long-term experiments, I study how environmental variation 
-    and sexual selection drive allele frequency dynamics in bulb mites.
+    I study how environmental variation and sexual selection drive allele frequency dynamics in bulb mites and the tradeoffs in reproductive and life-history traits associated with it.
   </p>
 
   <div class="research-options">
@@ -53,7 +52,7 @@ classes: wide
 </div>
 
 <div class="research-section">
-  <h2>Behavioural Ecology and Birds</h2>
+  <h2>Behavioural Ecology (Drosophila and birds)</h2>
   <p>
     My work extends to behavioural ecology, from stress responses and dispersal in mites 
     to avian predator–prey interactions and decision-making.
