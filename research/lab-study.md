@@ -125,8 +125,10 @@ To identify the fitness components underlying allele-frequency changes, we perfo
 
 ---
 
-## Interpretation
+## Conclusion
 
-Together, these experiments demonstrate that both **temperature and sexual selection** contribute to maintaining the 6Pgdh polymorphism. The differential performance of genotypes across environments and the persistence of both alleles under contrasting conditions provide strong evidence for **environment-dependent balancing selection**.  
+The experimental evolution study showed that **6Pgdh allele-frequency dynamics depended on the interaction between temperature and sexual-selection regime**. Populations remained polymorphic throughout the experiment, but the direction and magnitude of allele-frequency change differed among environmental and social conditions. These results support a role for **environment-dependent balancing selection**, in which the selective effects associated with sexual selection depend on the thermal environment.
 
-These results integrate with the field study findings, establishing the mechanistic basis of polymorphism maintenance in *R. robini*.
+The life-history assays did not identify a simple fitness mechanism underlying these changes. Development time was strongly influenced by temperature but showed no clear effect of 6Pgdh genotype, while reproductive success likewise showed no significant genotype differences. This suggests that the observed allele-frequency dynamics may arise from **more complex or context-dependent fitness effects** than those captured by these individual traits.
+
+Together with the field study, these experiments show that the maintenance of the 6Pgdh polymorphism is unlikely to be explained by a single environmental or fitness factor. Instead, the results highlight how **biotic and abiotic conditions can interact to shape evolutionary dynamics and maintain genetic variation** in natural populations.
