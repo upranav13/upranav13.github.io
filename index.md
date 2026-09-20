@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Where science meets creativity"
+title: "Welcome to my domain..."
 author_profile: true
 classes: wide
 ---
