@@ -41,8 +41,8 @@ These results indicate that selection for dispersal may indirectly enhance stres
 
 ---
 
-## Reflection
+## Conclusion
 
-This project introduced me to **experimental evolution and behavioral assays**, bridging ecology, genetics, and physiology.  
-It strengthened my skills in data collection, statistical analysis, and experimental design, and gave me an appreciation for how **selection on movement and stress resistance** can jointly shape evolutionary trajectories.  
-The experience directly complemented my later PhD work on **genotype-by-environment interactions and fitness variation**.
+The results suggested that **selection for increased dispersal capacity may also enhance resilience to environmental stress**. Dispersal-selected flies maintained greater activity and reproductive performance following both chemical and physical stress, while development time was comparatively unaffected. Together, these findings point to a potential link between the evolution of dispersal and stress tolerance, with selection on movement-related traits potentially producing correlated physiological or behavioral responses.
+
+This project also provided my first experience with **experimental evolution and behavioral assays**, combining questions from ecology, evolution, genetics, and physiology. It strengthened my experience in experimental design, data collection, and statistical analysis, and provided a foundation for my later doctoral work using experimental evolution to investigate **environment-dependent selection and fitness variation**.
