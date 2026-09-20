@@ -37,8 +37,8 @@ These findings provided the first quantitative estimates of territory size and s
 
 ---
 
-## Reflection
+## Conclusion
 
-This internship was my first direct exposure to **field ecology**, giving me hands-on experience in wildlife observation, data recording, and spatial analysis.  
-Working in a diverse montane ecosystem helped me develop a deeper appreciation for **behavioral ecology and conservation biology**, themes that continue to influence my research today.  
-The experience also strengthened my ability to design systematic field surveys and interpret behavioral data in an ecological context.
+The study provided initial insights into the **territorial organization and habitat use of two newly described bird species** in the montane forests of Kodaikanal. Both species maintained distinct territories, with individuals showing strong site fidelity to particular foraging areas and song perches. Territory distributions also appeared to vary with local habitat characteristics, providing baseline information on the spatial ecology of these recently described taxa.
+
+This internship was my first hands-on experience with **field ecology and behavioral research**, introducing me to systematic wildlife surveys, behavioral observations, ecological data collection, and spatial mapping. It provided an early foundation in designing and carrying out field-based research and helped broaden my experience with studying biological questions directly in natural populations.
