@@ -61,6 +61,4 @@ Each design blends scientific accuracy with visual clarity and aesthetic balance
 
 ---
 
-## Closing Note
-
-These visuals highlight the role of **design thinking in science communication** — simplifying complexity, guiding audience focus, and giving research a clear visual language.
+These pieces reflect my approach to **visual science communication**, using design to organize complex information, guide attention, and present scientific ideas in a clear and engaging way.
