@@ -28,7 +28,7 @@ Drawings highlighting the biology and anatomy of commonly used model organisms i
          alt="Bulb mite illustration"
          style="width:100%; object-fit:contain; background:#fafafa; border-radius:8px;">
     <p style="font-size:0.9rem; color:inherit; margin-top:6px;">
-      <strong>Bulb mite (*Rhizoglyphus robini*)</strong> — the focal organism of my PhD research, drawn in a simplified vector style for use in figures and presentations.
+      <strong>Bulb mite (<em>Rhizoglyphus robini</em>)</strong> — the focal organism of my PhD research, drawn in a simplified vector style for use in figures and presentations.
     </p>
   </div>
 
@@ -37,7 +37,7 @@ Drawings highlighting the biology and anatomy of commonly used model organisms i
          alt="C. elegans illustration"
          style="width:100%; object-fit:contain; background:#fafafa; border-radius:8px;">
     <p style="font-size:0.9rem; color:inherit; margin-top:6px;">
-      <strong>*Caenorhabditis elegans*</strong> — a transparent nematode model organism, illustrated to emphasize internal reproductive anatomy.
+      <strong><em>Caenorhabditis elegans</em></strong> — a transparent nematode model organism, illustrated to emphasize internal reproductive anatomy.
     </p>
   </div>
 
@@ -72,7 +72,7 @@ They combine clarity and illustration to communicate how experiments unfold step
 </div>
 
 <p style="text-align:center; font-size:0.9rem; color:inherit; margin-top:8px;">
-  <strong>Figure 1.</strong> Sequential illustration of the <em>experimental evolution workflow</em> used to study temperature- and sex ratio–dependent selection in <em>Rhizoglyphus robini</em>.
+  <strong>Figure 1.</strong> Sequential illustration of the experimental evolution workflow used to study temperature- and sex ratio–dependent selection in <em>Rhizoglyphus robini</em>.
 </p>
 
 ---
