@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-This section showcases my visual design and science communication work, focusing on **conference branding**, **promotional media**, and **scientific outreach**.
+My design work focuses on **visual communication for science and academic settings**, ranging from conference branding and promotional materials to scientific outreach and communication.
 
 ---
 
