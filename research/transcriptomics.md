@@ -90,5 +90,6 @@ The linked gene **rhrob01g23970**, located about 5 Mb from 6Pgdh on linkage grou
 
 ## Conclusion
 
-This study demonstrates that a single metabolic polymorphism, together with a closely linked variant, can drive **genome-wide expression divergence** across thousands of genes.  
-By integrating field data, experimental evolution, and transcriptomics, we reveal how selection acting on reproductive success can cascade into **broad physiological and metabolic differentiation** in *R. robini*.
+The study revealed extensive **genome-wide expression differences associated with the 6Pgdh polymorphism**, with thousands of genes differing in expression between S- and F-line males across multiple genetic backgrounds. These differences extended across a range of functional categories and metabolic processes, suggesting that the evolutionary significance of the polymorphism may extend beyond the immediate function of 6Pgdh itself.
+
+Together with evidence from earlier studies of **male reproductive performance, experimental evolution, and population-level variation**, the transcriptomic results provide another layer for understanding the 6Pgdh system. They highlight how genetic variation associated with a key metabolic locus can be linked to broader molecular and physiological differences, helping to connect patterns of genetic polymorphism with their potential functional consequences.
