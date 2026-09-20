@@ -6,7 +6,9 @@ classes: wide
 author_profile: true
 ---
 
-This section highlights my involvement in academic communities, workshops, and student-led initiatives, emphasizing collaboration, organization, and outreach beyond research.
+My academic activities extend beyond research through **conference organization, teaching and mentoring, scientific outreach, and collaborative events**. These experiences have given me opportunities to contribute to the wider scientific community while developing skills in communication, organization, and teamwork.
+
+---
 
 <div class="activity-section">
   <h1>EMPSEB29 — 29th European Meeting of PhD Students in Evolutionary Biology</h1>
@@ -31,17 +33,16 @@ This section highlights my involvement in academic communities, workshops, and s
     </div>
 
 <div class="right">
-  <h2>Designer</h2>
+  <h2>My role</h2>
   <p>
-    As part of the <strong>EMPSEB29 Organising Committee</strong>, I served as the <strong>Design and Communications Lead</strong>, 
-    coordinating the conference’s visual identity, digital presence, and outreach.
+     As a member of the <strong>EMPSEB29 Organising Committee</strong>, I was involved in both the organizational and creative sides of the conference, with responsibilities spanning design, communication, sponsorship, finances, and event coordination.
   </p>
   <ul>
-    <li>Developed the conference logo, promotional graphics, and presentation materials</li>
-    <li>Created social-media templates and managed Twitter / Instagram updates</li>
-    <li>Designed certificates, ID cards, signage, and souvenir materials</li>
-    <li>Handled communication with sponsors and partners to maintain consistent branding</li>
-    <li>Contributed to website layout, visual cohesion, and participant information design</li>
+    <li>Developed the conference logo, visual identity, promotional graphics, and presentation materials</li>
+        <li>Created social-media materials and managed conference updates across digital platforms</li>
+        <li>Designed certificates, ID cards, signage, and other conference materials</li>
+        <li>Communicated with sponsors and partners and contributed to sponsorship coordination</li>
+        <li>Contributed to conference finances, contracts, participant communication, and event organization</li>
   </ul>
 </div>
 
