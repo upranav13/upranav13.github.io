@@ -6,17 +6,15 @@ classes: wide
 author_profile: true
 ---
 
-My academic activities extend beyond research through **conference organization, teaching and mentoring, scientific outreach, and collaborative events**. These experiences have given me opportunities to contribute to the wider scientific community while developing skills in communication, organization, and teamwork.
-
----
+This section highlights my involvement in academic communities, workshops, and student-led initiatives, emphasizing collaboration, organization, and outreach beyond research.
 
 <div class="activity-section">
   <h1>EMPSEB29 — 29th European Meeting of PhD Students in Evolutionary Biology</h1>
 
   <p>
-    <strong>EMPSEB29</strong> was held in <strong>Puchberg am Schneeberg, Austria</strong> (June 3–7, 2024), bringing together 
-    early-career researchers in evolutionary biology from across Europe. The meeting provided a collaborative environment 
-    for students to present their research, exchange ideas, and build connections within the evolutionary biology community.
+    <strong>EMPSEB29</strong> was held in <strong>Puchberg am Schneeberg, Austria</strong> (June 3 – 7, 2024), bringing together 
+    early-career researchers in evolutionary biology from across Europe. The meeting offered an inclusive and collaborative environment 
+    for students to share their work, exchange ideas, and build scientific and social networks within the community.
   </p>
 
 <div class="activity-section">
@@ -32,20 +30,21 @@ My academic activities extend beyond research through **conference organization,
       </p>
     </div>
 
-    <div class="right">
-      <h2>My Role</h2>
-      <p>
-        As a member of the <strong>EMPSEB29 Organising Committee</strong>, I was involved in both the organizational and creative sides of the conference, 
-        with responsibilities spanning design, communication, sponsorship, finances, and event coordination.
-      </p>
-      <ul>
-        <li>Developed the conference logo, visual identity, promotional graphics, and presentation materials</li>
-        <li>Created social-media materials and managed conference updates across digital platforms</li>
-        <li>Designed certificates, ID cards, signage, and other conference materials</li>
-        <li>Communicated with sponsors and partners and contributed to sponsorship coordination</li>
-        <li>Contributed to conference finances, contracts, participant communication, and event organization</li>
-      </ul>
-    </div>
+<div class="right">
+  <h2>Designer</h2>
+  <p>
+    As part of the <strong>EMPSEB29 Organising Committee</strong>, I served as the <strong>Design and Communications Lead</strong>, 
+    coordinating the conference’s visual identity, digital presence, and outreach.
+  </p>
+  <ul>
+    <li>Developed the conference logo, promotional graphics, and presentation materials</li>
+    <li>Created social-media templates and managed Twitter / Instagram updates</li>
+    <li>Designed certificates, ID cards, signage, and souvenir materials</li>
+    <li>Handled communication with sponsors and partners to maintain consistent branding</li>
+    <li>Contributed to website layout, visual cohesion, and participant information design</li>
+  </ul>
+</div>
+
   </div>
 </div>
 
@@ -54,9 +53,10 @@ My academic activities extend beyond research through **conference organization,
     <img src="/assets/images/activities/sponsors.png" alt="EMPSEB29 sponsor logos">
   </div>
   <p>
-    The conference was supported by a range of <strong>academic societies, research organizations, and other partners</strong>, including 
-    ESEB, SEB, SSE, The Company of Biologists, and several research institutes. Working with these organizations involved sponsor communication, 
-    preparation of sponsorship materials, and coordination of financial and in-kind support for the meeting.
+    We successfully partnered with a wide range of <strong>academic societies and organizations</strong>, including 
+    ESEB, SEB, SSE, The Company of Biologists, and several research institutes. Through these collaborations, our team 
+    secured <strong>€45 000 +</strong> in funding and in-kind support, ensuring the event’s financial sustainability 
+    and accessibility to students from diverse backgrounds.
   </p>
 </div>
 
@@ -64,31 +64,29 @@ My academic activities extend beyond research through **conference organization,
   <div class="two-column reverse">
     <div class="left">
       <h1>Highlights Beyond Science</h1>
-      <p>
-        Alongside talks and poster sessions, we organized activities intended to encourage interaction and build a welcoming community around the meeting.
-      </p>
       <ul>
-        <li><strong>EDI Panel:</strong> A discussion on equality, diversity, and inclusion with invited speakers from academia and scientific publishing.</li>
-        <li><strong>Team Activities:</strong> A pub quiz and outdoor activities that gave participants opportunities to interact outside the formal scientific programme.</li>
-        <li><strong>Gala Dinner:</strong> An informal evening bringing together students, invited researchers, and other participants.</li>
-        <li><strong>Conference Prizes:</strong> Traditional awards for talks and posters alongside informal prizes that added some humour and personality to the meeting.</li>
+        <li><strong>EDI Panel:</strong> A discussion on equality, diversity, and inclusion featuring invited speakers from academia and the publishing industry, offering diverse gender and career perspectives.</li>
+        <li><strong>Team Activities:</strong> Interactive pub-quiz and outdoor games designed to foster informal collaboration and build connections among participants.</li>
+        <li><strong>Gala Dinner:</strong> An evening event encouraging relaxed conversations with principal investigators and peers.</li>
+        <li><strong>Conference Prizes:</strong> Both traditional awards (for best talk and poster) and informal prizes that added humour and personality to the event, strengthening the sense of community.</li>
       </ul>
     </div>
 
-    <div class="right">
-      <div class="image-slider">
-        <div class="slides">
-          <img src="/assets/images/activities/1a.jpg" alt="EMPSEB29 group photo">
-          <img src="/assets/images/activities/1b.png" alt="Evening social event EMPSEB29">
-          <img src="/assets/images/activities/1c.png" alt="Outdoor walk EMPSEB29">
-          <img src="/assets/images/activities/1d.jpg" alt="Mountain view EMPSEB29">
-          <img src="/assets/images/activities/1e.png" alt="Team activity EMPSEB29">
-          <img src="/assets/images/activities/1f.jpg" alt="EDI panel EMPSEB29">
-        </div>
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+<div class="right">
+  <div class="image-slider">
+    <div class="slides">
+      <img src="/assets/images/activities/1a.jpg" alt="EMPSEB29 group photo">
+      <img src="/assets/images/activities/1b.png" alt="Evening social event EMPSEB29">
+      <img src="/assets/images/activities/1c.png" alt="Outdoor walk EMPSEB29">
+      <img src="/assets/images/activities/1d.jpg" alt="Mountain view EMPSEB29">
+      <img src="/assets/images/activities/1e.png" alt="Team activity EMPSEB29">
+      <img src="/assets/images/activities/1f.jpg" alt="EDI panel EMPSEB29">
     </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+</div>
+
   </div>
 </div>
 
@@ -96,16 +94,17 @@ My academic activities extend beyond research through **conference organization,
   <h1>Polish Evolutionary Conference 2023 — Volunteer & Presenter</h1>
 
   <p>
-    I participated in the <strong>9th Polish Evolutionary Conference (PEC 2023)</strong> in Kraków as both a volunteer and presenter. 
-    Alongside presenting my doctoral research through an <strong>oral presentation and poster</strong>, I supported the organizing team with 
-    conference coordination and communication.
+    I contributed to the <strong>9th Polish Evolutionary Conference (PEC 2023)</strong> as part of the volunteer and 
+    communication support team, assisting with conference coordination, digital outreach, and engagement activities. 
+    The conference brought together researchers from across Poland and Europe to discuss new perspectives in evolutionary biology.
   </p>
 
   <ul>
-    <li>Assisted with on-site coordination, registration, and session logistics</li>
-    <li>Supported conference communication and social-media updates</li>
-    <li>Helped prepare materials for conference announcements and speaker highlights</li>
-    <li>Presented my doctoral research through both an <strong>oral presentation</strong> and a <strong>poster</strong></li>
+    <li>Supported on-site coordination, registration, and technical setup during sessions</li>
+    <li>Helped manage communication channels and social-media updates for the event</li>
+    <li>Assisted the organizing team in preparing content for conference updates and speaker highlights</li>
+    <li>Delivered both an <strong>oral presentation</strong> and a <strong>poster</strong> on my doctoral research</li>
+    <li>Engaged in discussions promoting collaboration between early-career researchers and senior scientists</li>
   </ul>
 
   <img src="/assets/images/activities/PEC.jpg" alt="Polish Evolutionary Conference 2023 group photo" style="max-width:700px; width:100%; border-radius:10px; margin:25px auto; display:block; box-shadow:0 2px 10px rgba(255,255,255,0.08);">
@@ -118,19 +117,26 @@ My academic activities extend beyond research through **conference organization,
   <h1>Experimental Evolution Course — Vienna Graduate School of Population Genetics (2022)</h1>
 
   <p>
-    I participated in the <strong>Experimental Evolution Course 2022</strong>, organized by the 
+    I participated in the <strong>Experimental Evolution Course 2022</strong> organized by the 
     <strong>Vienna Graduate School of Population Genetics</strong> at the University of Veterinary Medicine, Vienna.
-    The week-long course combined lectures, practical sessions, and data analysis focused on studying evolutionary change in real time.
+    The week-long intensive course brought together early-career researchers working on real-time evolution, 
+    combining lectures, hands-on sessions, and data analysis exercises.
+  </p>
+
+  <p>
+    The course covered the design and implementation of selection experiments, data handling, and statistical evaluation of 
+    evolutionary processes across model systems, providing both conceptual and practical perspectives on evolutionary dynamics.
   </p>
 
   <ul>
-    <li>Explored the design of experimental evolution studies, including selection regimes, replication, and interpretation of evolutionary responses</li>
-    <li>Worked with genomic time-series data and approaches for analysing allele-frequency change</li>
-    <li>Participated in discussions and practical sessions with researchers working across experimental evolution and population genomics</li>
+    <li>Engaged in discussions on experimental design, replicate structure, and interpretation of evolutionary responses</li>
+    <li>Participated in data analysis sessions on genomic time series and allele frequency change estimation</li>
+    <li>Collaborated with an international group of researchers and instructors specializing in experimental evolution and population genomics</li>
   </ul>
 
   <p>
-    The course strengthened both my conceptual and practical understanding of <strong>experimental evolution</strong> and was directly relevant to the experimental evolution component of my doctoral research in bulb mites.
+    This course provided a valuable opportunity to connect theoretical and empirical approaches to
+    <strong>evolutionary dynamics under controlled conditions</strong>, complementing my own PhD work on experimental evolution in bulb mites.
   </p>
 
   <img src="/assets/images/activities/ee.png" alt="Experimental Evolution Course group photo, Vienna 2022" style="max-width:700px; width:100%; border-radius:10px; margin:25px auto; display:block; box-shadow:0 2px 10px rgba(255,255,255,0.08);">
@@ -140,40 +146,44 @@ My academic activities extend beyond research through **conference organization,
 </div>
 
 <div class="activity-section alt">
-  <h1>Science Outreach & Academic Events — IISER Tirupati</h1>
+  <h1>Science Outreach & Academic Events (IISER Tirupati)</h1>
 
   <p>
-    During my time at the <strong>Indian Institute of Science Education and Research (IISER) Tirupati</strong>, I was involved in 
-    science outreach and academic events for school and university students. These activities ranged from public science events and 
-    campus visits to student-led lectures, workshops, and exhibitions.
+    At the <strong>Indian Institute of Science Education and Research (IISER), Tirupati</strong>, I organized and supported a range of 
+    outreach and academic events aimed at promoting science communication and hands-on learning among students and the public.
+  </p>
+
+  <p>
+    These activities involved direct interaction with high school students, coordination of campus visits, and facilitation of student-led workshops and exhibitions.
   </p>
 
   <div class="two-column">
     <div class="left">
       <ul>
-        <li>Contributed to <strong>National Science Day</strong> activities featuring interactive exhibits, demonstrations, and science communication</li>
-        <li>Participated in <strong>outreach lectures</strong> and activities for visiting school students</li>
-        <li>Helped coordinate <strong>school visits</strong> introducing students to university-level science and research</li>
-        <li>Supported short academic workshops and student learning activities</li>
-        <li>Contributed to interactive science exhibits combining biological concepts with visual communication</li>
+        <li>Coordinated <strong>National Science Day</strong> celebrations featuring interactive booths, model exhibits, and live demonstrations</li>
+        <li>Organized <strong>outreach lectures</strong> where Master’s students taught visiting high school groups</li>
+        <li>Facilitated <strong>school visits</strong> to the IISER campus to introduce students to scientific research and higher education</li>
+        <li>Helped host <strong>short academic workshops</strong> (e.g., R programming, biodiversity sessions) for undergraduate participants</li>
+        <li>Designed and managed creative <strong>science communication exhibits</strong> connecting art and biology</li>
       </ul>
     </div>
 
-    <div class="right">
-      <div class="image-slider">
-        <div class="slides">
-          <img src="/assets/images/activities/high-school.jpg" alt="Outreach lecture for high school students at IISER Tirupati">
-          <img src="/assets/images/activities/career-day2.jpg" alt="Career day outreach session with students at IISER Tirupati">
-          <img src="/assets/images/activities/career-day.jpg" alt="Student-led teaching session during academic outreach">
-          <img src="/assets/images/activities/science-day.jpg" alt="Science Day exhibition and model demonstrations at IISER Tirupati">
-        </div>
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
-      <p class="caption small-caption">
-        Highlights from outreach events at IISER Tirupati, including Science Day activities, student lectures, and school visits.
-      </p>
+<div class="right">
+  <div class="image-slider">
+    <div class="slides">
+      <img src="/assets/images/activities/high-school.jpg" alt="Outreach lecture for high school students at IISER Tirupati">
+      <img src="/assets/images/activities/career-day2.jpg" alt="Career day outreach session with students at IISER Tirupati">
+      <img src="/assets/images/activities/career-day.jpg" alt="Student-led teaching session during academic outreach">
+      <img src="/assets/images/activities/science-day.jpg" alt="Science Day exhibition and model demonstrations at IISER Tirupati">
     </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <p class="caption small-caption">
+    Highlights from outreach events at IISER Tirupati — including Science Day, student lectures, and school visits.
+  </p>
+</div>
+
   </div>
 </div>
 
@@ -183,35 +193,36 @@ My academic activities extend beyond research through **conference organization,
   <div class="two-column">
     <div class="left">
       <p>
-        I served as a <strong>Lead Organizer</strong> for <strong>Vivante</strong>, a student-led festival at IISER Tirupati bringing together 
-        cultural, scientific, and creative events. The role involved coordinating multiple teams and activities across the festival.
+        Served as the <strong>Lead Organizer</strong> for <strong>Vivante</strong>, one of IISER Tirupati’s largest student-led festivals 
+        with an attendance of over 2000 participants, encompassing cultural, scientific, and creative events.
       </p>
       <ul>
-        <li>Coordinated logistics, scheduling, and stage management across multiple events</li>
-        <li>Managed communication between invited guests, performers, volunteers, and technical teams</li>
-        <li>Contributed to publicity, design, and media promotion</li>
-        <li>Coordinated volunteer teams during the event</li>
+        <li>Coordinated logistics, event scheduling, and stage management across multiple venues</li>
+        <li>Handled communication and coordination between invited guests, performers, and technical teams</li>
+        <li>Oversaw publicity, design, and media promotion for festival-wide activities</li>
+        <li>Supervised volunteer teams to ensure smooth operations during multi-day events</li>
       </ul>
     </div>
 
-    <div class="right">
-      <img src="/assets/images/activities/vivante.png" alt="Vivante Fest at IISER Tirupati" style="max-width:480px; border-radius:10px; box-shadow:0 2px 10px rgba(255,255,255,0.08);">
-      <p class="caption small-caption">
-        <strong>Vivante</strong>, a student-led festival at IISER Tirupati combining science, art, and cultural activities.
-      </p>
-    </div>
+<div class="right">
+  <img src="/assets/images/activities/vivante.png" alt="Vivante Fest at IISER Tirupati" style="max-width:480px; border-radius:10px; box-shadow:0 2px 10px rgba(255,255,255,0.08);">
+  <p class="caption small-caption">
+    <strong>Vivante</strong> — IISER Tirupati’s flagship student festival combining science, art, and cultural performances.
+  </p>
+</div>
+
   </div>
 </div>
 
 <div class="activity-section alt">
-  <h1>Teaching & Mentoring</h1>
+  <h1>Teaching, Mentoring & Collaboration</h1>
   <p>
-    Teaching and mentoring have also been an important part of my academic experience, from classroom teaching to supporting students through individual research projects.
+  Beyond event organization, I have actively contributed to <strong>teaching and mentorship</strong> at both the Master’s and PhD levels.
   </p>
   <ul>
-    <li>Taught Master's-level courses in <strong>Science Communication</strong> and <strong>Bioinformatics</strong> over three years, working with more than 100 students</li>
-    <li>Mentored Bachelor’s and Master’s students through research projects and theses</li>
-    <li>Supported students in developing scientific presentations, posters, and research communication skills</li>
+    <li>Taught Master's-level courses in <strong>Science Communication</strong> and <strong>Bioinformatics</strong> for three years (100+ students)</li>
+    <li>Mentored Bachelor’s and Master’s students through their research projects and theses</li>
+    <li>Organized poster sessions and seminars to improve student scientific outreach and presentation skills</li>
   </ul>
 </div>
 
