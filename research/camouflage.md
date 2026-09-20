@@ -74,6 +74,6 @@ Data from 49 players showed clear patterns:
 
 ---
 
-## Summary
+## Conclusion
 
-This experiment provided experimental evidence that dorsal patterns can act as camouflage in visually complex environments. While the field-based meta-analysis found weak statistical correlations between pattern and habitat complexity, this simulation confirmed that such patterns do provide functional advantages under controlled conditions. The results illustrate how natural selection via predation pressure can shape coat-pattern diversity in squirrels and other mammals.
+This experiment provided experimental evidence that **dorsal patterns can enhance camouflage in visually complex environments**, with striped and spotted morphs being more difficult to detect against complex backgrounds. While the comparative analysis found weaker associations between coat pattern and habitat complexity across squirrel species, the simulation demonstrated a functional advantage of patterning under controlled conditions. Together, these results support the idea that **predation and visually mediated selection may contribute to the evolution and diversity of coat patterns** in squirrels and other mammals.
