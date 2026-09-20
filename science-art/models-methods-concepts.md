@@ -149,6 +149,4 @@ These minimal forms translate biological complexity into clear, accessible symbo
 
 ---
 
-## Closing Note
-
-These works sit at the intersection of **research and visual storytelling**, using illustration and design to clarify biological ideas and to celebrate the beauty of experimental work itself.
+These works reflect my interest in using **illustration and design as tools for scientific communication**, turning biological concepts, experimental methods, and research ideas into clear and engaging visuals.
