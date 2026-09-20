@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-This section highlights my involvement in **academic communities**, **workshops**, and **student-led initiatives**, emphasizing collaboration, organization, and outreach beyond research.
+My academic activities extend beyond research, through **conference organization, teaching and mentoring, scientific outreach, and collaborative events**. These experiences have given me opportunities to contribute to the wider scientific community while developing skills in communication, organization, and teamwork.
 
 ---
 
