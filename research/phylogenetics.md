@@ -79,13 +79,7 @@ Comparative analyses revealed that coat colour in squirrels follows **Gloger’s
 
 ---
 
-## Summary
+## Conclusion
 
-Phylogenetic analyses showed that:
-
-- Brown and plain coats were ancestral in squirrels.  
-- Darker colours evolved repeatedly in wetter environments.  
-- Patterns show strong phylogenetic signal but weaker climate correlations, suggesting they may have been shaped by past selection.
-
-Together, these results highlight the interplay between evolutionary history and ecological adaptation in shaping the diversity of squirrel coat traits.
+Phylogenetic analyses indicated that **brown and plain coats were likely ancestral in squirrels**, while darker colouration evolved repeatedly in association with wetter environments. Coat patterns showed strong phylogenetic signal but weaker associations with contemporary climatic variables, suggesting a greater influence of evolutionary history and potentially past selective pressures. Together, these findings highlight how both **phylogenetic history and ecological adaptation** have contributed to the diversity of coat colour and pattern across squirrels.
 
