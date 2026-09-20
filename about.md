@@ -5,8 +5,13 @@ permalink: /about/
 classes: wide
 author_profile: true
 ---
-Hi, I’m Pranav. Almost all of my scientific work revolves around a simple but profound question: how do organisms adapt and evolve? Over the years, I’ve studied this from different angles, and in the process, I’ve also had to adapt myself—learning to work across disciplines and develop a broad toolkit. My skill set has made me something of a “jack of all trades,” and I’m continually working to deepen it while staying open to new perspectives.
 
-Outside of research, I enjoy exploring the creative side of things. I’m not a professional artist or designer, but I’ve found drawing, illustration, and design to be powerful ways of thinking, experimenting, and sharing ideas. Some of this overlaps with my science—visualizations and graphics that make data and concepts more approachable—while other pieces are simply personal art that I make for the joy of creating.
+Hi, I'm Pranav, an **evolutionary biologist** interested broadly in how biological diversity evolves and is maintained. My research has taken me from studying genetic variation within populations to investigating the evolution of traits across species, including colour and pattern diversity.
 
-This site brings those sides together. It’s a space where I collect the different things I work on and care about: research, communication, and art. For me, they’re all connected by curiosity, creativity, and a desire to keep learning.
+I've approached these questions from several directions. My doctoral research combined field studies, experimental evolution, population genetics, molecular approaches, and statistical modelling to investigate the maintenance of genetic polymorphism. My earlier work on the evolution of coat colour and patterns introduced me to phylogenetics and comparative methods, and these remain an important part of how I think about broader questions in trait evolution.
+
+Working across different questions and biological systems has made me something of a **"jack of all trades" evolutionary biologist**. I'm comfortable moving between experiments and fieldwork, molecular and computational approaches, and evolutionary questions at different biological scales. But I don't see breadth and depth as opposites. My goal is to keep expanding that toolkit while developing deeper expertise across the areas I work in, perhaps working my way from *jack of all trades* towards becoming *master of more than one*.
+
+Beyond research, I enjoy **science communication, scientific illustration, and design**. I like finding visual ways to communicate scientific ideas, whether through figures and illustrations, infographics, presentations, or other forms of scientific design.
+
+And not everything I create needs to be scientific. I also spend time drawing and experimenting with digital and traditional art simply because I enjoy it. **Curiosity, experimentation, and the desire to keep learning probably connect all of these things better than any single label does.**
