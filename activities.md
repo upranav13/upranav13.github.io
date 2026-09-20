@@ -216,9 +216,9 @@ My academic activities extend beyond research through **conference organization,
 </div>
 
 <div class="activity-section alt">
-  <h1>Teaching, Mentoring & Collaboration</h1>
+  <h1>Teaching & Mentoring</h1>
   <p>
-  Beyond event organization, I have actively contributed to <strong>teaching and mentorship</strong> at both the Master’s and PhD levels.
+  Teaching and mentoring have also been an important part of my academic experience, from classroom teaching to supporting students through individual research projects.
   </p>
   <ul>
     <li>Taught Master's-level courses in <strong>Science Communication</strong> and <strong>Bioinformatics</strong> for three years (100+ students)</li>
