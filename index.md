@@ -1,11 +1,13 @@
 ---
 layout: single
-title: "Welcome to my domain..."
+title: "Where science meets creativity"
 author_profile: true
 classes: wide
 ---
-*where science meets imagination, and where sketches, ideas, and experiments all find a home*
+*rooted in science, branching into creativity*
 
-This site brings together different sides of me — my research as a **biologist**, my passion for **communicating science**, and my **art**, both scientific and personal. 
+Here, you'll find my work in **evolutionary biology**, from research projects and publications to the methods, questions, and ideas behind them.
 
-Here you’ll find a mix of projects and creations, from data and models to sketches and illustrations — a portfolio that reflects both my work and my curiosity.
+Alongside the science, you'll also find my work in **science communication and design**, as well as illustrations, digital and traditional art, and other creative projects.
+
+**Curiosity for science, an enthusiasm for new research ideas, and a little creativity and imagination along the way. That probably sums me up quite well.**
