@@ -78,8 +78,8 @@ Statistical analyses tested for correlations between allele frequencies and envi
 
 ---
 
-## Interpretation
+## Conclusion
 
-The results provide strong evidence that environment-dependent selection contributes to maintaining the 6Pgdh polymorphism in the wild. The consistent association with soil cations and environmental PCs suggests physiological or metabolic underpinnings linked to energy metabolism. Moreover, the absence of strong seasonal shifts implies that the selective environment remains relatively stable across short timescales.
+The field study showed that the **6Pgdh polymorphism is widespread in natural bulb mite populations**, with substantial variation in allele frequencies across locations. Allele frequencies were associated with local environmental conditions, particularly **soil properties and cation concentrations**, supporting a potential role for environment-dependent selection in shaping 6Pgdh variation in the wild. Seasonal changes were also observed, although these were not consistent across populations, suggesting that local environmental conditions, population dynamics, and other demographic processes may contribute to the observed variation.
 
-These findings establish the ecological context for the subsequent **laboratory experiments**, which test how temperature and sexual selection interact to shape 6Pgdh dynamics under controlled conditions.
+Together, these findings show that the persistence of 6Pgdh polymorphism in natural populations is likely shaped by a combination of **environmental and demographic factors**, rather than by a single selective pressure. The field results provided the ecological context for the subsequent laboratory experiments, which tested how controlled environmental and social conditions influence 6Pgdh allele-frequency dynamics.
