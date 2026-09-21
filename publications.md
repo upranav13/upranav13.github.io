@@ -6,25 +6,58 @@ author_profile: true
 classes: wide
 ---
 
-My publications span **experimental evolution, population genetics, and molecular approaches to evolutionary biology**, with work investigating the maintenance and functional consequences of genetic variation.
-
----
-
 ## 2025
 
 <div style="display:flex; gap:28px; align-items:flex-start; margin:25px 0 35px 0;">
 
   <div style="flex:0 0 180px;">
-    <a href="https://doi.org/10.21203/rs.3.rs-4835969/v1" target="_blank">
-      <img src="/assets/images/pubs/thumb_1.png"
-           alt="The interplay of environmental and social factors influences balancing selection"
+    <a href="https://doi.org/10.1093/jeb/voaf109" target="_blank">
+      <img src="/assets/images/pubs/thumb_3.png"
+           alt="Polymorphism in a metabolic gene involved in sexual selection shapes global gene expression profiles in the bulb mite males"
            style="width:100%; height:auto; border-radius:6px;">
     </a>
   </div>
 
   <div style="flex:1; min-width:0;">
     <h3 style="margin-top:0;">
-      The interplay of environmental and social factors influences balancing selection: 6Pgdh in bulb mites
+      Polymorphism in a metabolic gene involved in sexual selection shapes global gene expression profiles in the bulb mite males
+    </h3>
+
+    <p>
+      Agata Plesnar-Bielak, Sebastian Chmielewski, Katarzyna Dudek,
+      <strong>Pranav Unnikrishnan</strong>, Gabriela Cygnar, Mateusz Konczal
+    </p>
+
+    <p>
+      <em>Journal of Evolutionary Biology</em>
+    </p>
+
+    <p>
+      Transcriptomic study examining genome-wide gene-expression differences associated with 6Pgdh variation and their potential links to metabolism and reproductive traits in bulb mites.
+    </p>
+
+    <p>
+      <a href="https://doi.org/10.1093/jeb/voaf109"
+         class="btn btn--small"
+         target="_blank">View article</a>
+    </p>
+  </div>
+
+</div>
+
+<div style="display:flex; gap:28px; align-items:flex-start; margin:25px 0 35px 0;">
+
+  <div style="flex:0 0 180px;">
+    <a href="https://doi.org/10.1002/ece3.72671" target="_blank">
+      <img src="/assets/images/pubs/thumb_1.png"
+           alt="The Interplay of Biotic and Abiotic Factors in Shaping Genetic Variation at 6Pgdh in the Bulb Mite"
+           style="width:100%; height:auto; border-radius:6px;">
+    </a>
+  </div>
+
+  <div style="flex:1; min-width:0;">
+    <h3 style="margin-top:0;">
+      The Interplay of Biotic and Abiotic Factors in Shaping Genetic Variation at 6Pgdh in the Bulb Mite
     </h3>
 
     <p>
@@ -41,9 +74,9 @@ My publications span **experimental evolution, population genetics, and molecula
     </p>
 
     <p>
-      <a href="https://doi.org/10.21203/rs.3.rs-4835969/v1"
+      <a href="https://doi.org/10.1002/ece3.72671"
          class="btn btn--small"
-         target="_blank">DOI / Article</a>
+         target="_blank">View article</a>
     </p>
   </div>
 
@@ -58,7 +91,7 @@ My publications span **experimental evolution, population genetics, and molecula
   <div style="flex:0 0 180px;">
     <a href="https://doi.org/10.1007/s10493-024-00909-4" target="_blank">
       <img src="/assets/images/pubs/thumb_2.png"
-           alt="6Pgdh polymorphism in wild bulb mite populations"
+           alt="6Pgdh polymorphism in wild bulb mite populations: prevalence, environmental correlates and life history trade-offs"
            style="width:100%; height:auto; border-radius:6px;">
     </a>
   </div>
@@ -84,47 +117,7 @@ My publications span **experimental evolution, population genetics, and molecula
     <p>
       <a href="https://doi.org/10.1007/s10493-024-00909-4"
          class="btn btn--small"
-         target="_blank">DOI / Article</a>
-    </p>
-  </div>
-
-</div>
-
----
-
-## Transcriptomics Publication
-
-<div style="display:flex; gap:28px; align-items:flex-start; margin:25px 0 35px 0;">
-
-  <div style="flex:0 0 180px;">
-    <a href="TRANSCRIPTOMICS-DOI-OR-ARTICLE-LINK" target="_blank">
-      <img src="/assets/images/pubs/thumb_3.png"
-           alt="Transcriptomics publication"
-           style="width:100%; height:auto; border-radius:6px;">
-    </a>
-  </div>
-
-  <div style="flex:1; min-width:0;">
-    <h3 style="margin-top:0;">
-      TRANSCRIPTOMICS PAPER TITLE
-    </h3>
-
-    <p>
-      FULL AUTHOR LIST WITH <strong>Pranav Unnikrishnan</strong> BOLDED
-    </p>
-
-    <p>
-      <em>JOURNAL / CURRENT STATUS</em>
-    </p>
-
-    <p>
-      Transcriptomic study examining genome-wide gene-expression differences associated with 6Pgdh variation and their potential links to metabolism and reproductive traits in bulb mites.
-    </p>
-
-    <p>
-      <a href="TRANSCRIPTOMICS-DOI-OR-ARTICLE-LINK"
-         class="btn btn--small"
-         target="_blank">DOI / Article</a>
+         target="_blank">View article</a>
     </p>
   </div>
 
