@@ -1,7 +1,7 @@
 title: "Pranav Unnikrishnan"
 description: "Evolutionary biology • science communication • science art"
 url: "https://upranav13.github.io"
-baseurl: ""                        
+baseurl: ""
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: aqua
 
@@ -18,11 +18,20 @@ kramdown:
 author:
   name: "Pranav Unnikrishnan"
   avatar: "/assets/images/avatar.jpg"
-  bio: "Evolutionary biologist | Designer & Artist"
+  bio: "Evolutionary Biologist | Research, Design & Illustration"
   links:
     - label: "Email"
-      url: "upranav13@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:upranav13@gmail.com"
+
     - label: "ORCID"
-      url: "https://orcid.org/my-orcid?orcid=0009-0003-8532-6324"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0003-8532-6324"
 
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=CxkQ2ysAAAAJ"
 
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Pranav-Unnikrishnan-2"
