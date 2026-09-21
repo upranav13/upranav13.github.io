@@ -14,4 +14,4 @@ Working across different questions and biological systems has made me something 
 
 Beyond research, I enjoy **science communication, scientific illustration, and design**. I like finding visual ways to communicate scientific ideas, whether through figures and illustrations, infographics, presentations, or other forms of scientific design.
 
-And not everything I create needs to be scientific. I also spend time drawing and experimenting with digital and traditional art simply because I enjoy it. **Curiosity, experimentation, and the desire to keep learning probably connect all of these things better than any single label does.**
+And not everything I create is related to science. I also spend time drawing and experimenting with digital and traditional art simply because I enjoy it. **Curiosity, experimentation, and the desire to keep learning probably connect all of these things better than any single label does.**
