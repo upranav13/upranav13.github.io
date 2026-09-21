@@ -7,6 +7,8 @@ main:
         url: /research/
       - title: "Publications"
         url: /publications/
+  - title: "Activities"
+    url: /activities/
   - title: "Art"
     children:
       - title: "Science"
@@ -15,8 +17,6 @@ main:
         url: /art/
   - title: "Design"
     url: /design/
-  - title: "Activities"
-    url: /activities/
   - title: "CV"
     children:
       - title: "Academic"
